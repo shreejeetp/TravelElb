@@ -1,0 +1,28 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 70vh;
+    color:white;
+
+    .country-hero{
+        position: absolute;
+        font-size: 8rem;
+        font-weight: 900;
+        font-family:'Open Sans',sans-serif;
+        z-index: 1;
+        opacity: .4;
+    }
+
+    .city-hero{
+        position: absolute;
+        font-size: 10rem;
+        font-weight: 900;
+        font-family:'Open Sans',sans-serif;
+        z-index: 2;
+        transform:translateY(-70px);
+        filter:drop-shadow(-4px 16px 10px rgba(0, 0, 0, 0.6));
+    }
+}
+

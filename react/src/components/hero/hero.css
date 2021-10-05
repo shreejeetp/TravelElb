@@ -1,0 +1,36 @@
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  height: 70vh;
+  color: white;
+}
+
+.hero .country-hero {
+  position: absolute;
+  font-size: 8rem;
+  font-weight: 900;
+  font-family: 'Open Sans',sans-serif;
+  z-index: 1;
+  opacity: .4;
+}
+
+.hero .city-hero {
+  position: absolute;
+  font-size: 10rem;
+  font-weight: 900;
+  font-family: 'Open Sans',sans-serif;
+  z-index: 2;
+  -webkit-transform: translateY(-70px);
+          transform: translateY(-70px);
+  -webkit-filter: drop-shadow(-4px 16px 10px rgba(0, 0, 0, 0.6));
+          filter: drop-shadow(-4px 16px 10px rgba(0, 0, 0, 0.6));
+}
+/*# sourceMappingURL=hero.css.map */
