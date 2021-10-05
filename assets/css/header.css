@@ -1,0 +1,96 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 60px;
+  height: 10vh;
+  color: white;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.header__logo_txt {
+  font-family: 'Open sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.header__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.logo_dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: orange;
+  margin-left: 2px;
+}
+
+.header_link {
+  cursor: pointer;
+  padding-bottom: 10px;
+  margin-left: 30px;
+  border-bottom: 2px solid transparent;
+}
+
+.header_link:first-child {
+  margin-left: 0px;
+}
+
+.header_link:hover {
+  border-bottom: 2px solid white;
+}
+
+.header_link__down {
+  font-size: .6rem;
+  padding-left: 5px;
+  padding-bottom: 12px;
+  cursor: pointer;
+}
+
+.whatsapp-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.whatsapp-button__text {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.whatsapp-logo {
+  width: 25px;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=header.css.map */

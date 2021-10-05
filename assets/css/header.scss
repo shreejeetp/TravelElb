@@ -1,0 +1,76 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 60px;
+    height:10vh;
+    color:white;
+
+    &__logo{
+        display: flex;
+        align-items: baseline;
+    }
+
+    &__logo_txt{
+        font-family: 'Open sans', sans-serif;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    &__links{
+        display:flex;
+        align-items: center;
+        font-size:1rem;
+        font-weight: 600;
+        padding-top:15px;
+    }
+}
+
+.logo_dot{
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-left:2px;
+}
+
+.header_link{
+    cursor: pointer;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    border-bottom: 2px solid transparent;
+
+    &:first-child{
+        margin-left: 0px;
+    }
+    &:hover{
+        border-bottom: 2px solid white;
+    }
+    &__down{
+        font-size: .6rem;
+        padding-left:5px;
+        padding-bottom:12px;
+        cursor: pointer;
+    }
+}
+
+.whatsapp-button{
+    display: flex;
+    align-items: center;
+    padding:5px 10px;
+    border:2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+
+    &__text{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+}
+
+.whatsapp-logo{
+    width: 25px;
+    margin-right: 5px;
+}
